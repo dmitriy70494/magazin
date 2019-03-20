@@ -1,0 +1,16 @@
+apply plugin:'java'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.springframework/spring-core
+    compile group: 'org.springframework', name: 'spring-core', version: '5.1.5.RELEASE'
+}
+
+jar {
+    baseName = 'magazin'
+    version =  '0.1.0'
+}
